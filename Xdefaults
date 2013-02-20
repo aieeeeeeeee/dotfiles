@@ -1,0 +1,55 @@
+! xterm
+! xterm*background:	#1e1f22
+! xterm*foreground:	#9fb0bd
+#xterm*background:	#aa00000
+xterm*background:	#000000
+xterm*foreground:	#000000
+
+xterm*faceName: gohufont
+! xcursor
+Xcursor.theme:	Obsidian
+Xcursor.size:	16
+! urxvt
+urxvt*matcher.button:	1
+urxvt.perl-ext-common:	default,matcher,tabbed
+urxvt*colorUL: 4
+#urxvt.urlLauncher: firefox
+urxvt.urlLauncher: /usr/bin/chromium-browser
+urxvt.urgentOnBell:	True
+urxvt*font: -*-erusfont-medium-*-*-*-13-*-*-*-*-*-iso10646-*
+urxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=13
+urxvt*saveLines:	999999
+urxvt*termName:	xterm
+urxvt*cursorColor:	#d8d8d8
+urxvt*scrollBar:	false
+URxvt.geometry:    100x35
+! colors
+! defaults
+#*background: #333333
+*background: #000000
+*foreground: #aaaaaa
+! 0: black
+*color0:	#1b1b1b
+*color8:	#555753
+! 1: red
+*color1:	#ff6b6b
+*color9:	#ff8d8d
+! 2: green
+*color2:	#a3d46e
+*color10:	#c8e7a8
+! 3: magenta
+*color3:	#eaca75
+*color11:	#ffd155
+! 4: blue
+*color4:	#435e87
+*color12:	#587aa4
+! 5: yellow
+*color5:	#cf8243
+*color13:	#f6a24f
+! 6: cyan
+*color6:	#789ec6
+*color14:	#46a4ff
+! 7: white
+*color7:	#ababab
+*color15:	#ababab
+
