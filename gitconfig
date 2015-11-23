@@ -1,6 +1,14 @@
 [user]
-	name = username
-	email = username@mail.com
+	name = aieeeeeeeee
+	email = to_change
+
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[http]
+	sslVerify = true
+
 [core]
 	editor = vim
 	excludesfile = $HOME/.gitignore
@@ -35,3 +43,5 @@
         added = yellow
         changed = green
         untracked = cyan
+[push]
+	default = simple
